@@ -29,77 +29,50 @@
         <h1 id="title">Survey Form</h1>
         <p id="description">Thank you for taking your time to predict the early detection of Covid-19</p>
         <form id="survey-form">
-            <fieldset>
-                Are you suffering from Cough?
-                <select id="dropdown">
-                    <option></option>
-                    <option>YES</option>
-                    <option>No</option>
-                </select>
-                </label>
-                <label>
-                    Are you suffering from Fever?
-                    <select id="dropdown">
-                        <option></option>
-                        <option>YES</option>
-                        <option>No</option>
-                    </select>
-                </label>
-                <label>
-                    Are you suffering from Sore throat?
-                    <select id="dropdown">
-                        <option></option>
-                        <option>YES</option>
-                        <option>No</option>
-                    </select>
-                </label>
-                <label>
-                    Are you suffering from Shortness Breath?
-                    <select id="dropdown">
-                        <option></option>
-                        <option>YES</option>
-                        <option>No</option>
-                    </select>
-                </label>
-                <label>
-                    Are you suffering from Headache?
-                    <select id="dropdown">
-                        <option></option>
-                        <option>YES</option>
-                        <option>No</option>
-                    </select>
-                </label>
-                <label>
-                    Is your age above 60?
-                    <select id="dropdown">
-                        <option></option>
-                        <option>YES</option>
-                        <option>NO</option>
-                    </select>
-                </label>
-                <label>
-                    Sex?
-                    <select id="dropdown">
-                        <option></option>
-                        <option>Male</option>
-                        <option>Female</option>
-                    </select>
-                </label>
-                <label>
-                    Reason to predict?
-                    <select id="dropdown">
-                        <option> </option>
-                        <option>Abroad Visit</option>
-                        <option> Contact with Confirmed</option>
-                        <option> Others </option>
-                    </select>
-                </label>
-            </fieldset>
-            <input id="submit" type="submit" value="Submit">
+            <label for="question">Are you suffering from Cough?</label>
+            <select name="Cough" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Are you suffering from Fever</label>
+            <select name="Fever" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Are you suffering from Sore throat?</label>
+            <select name="Sore_throat" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Are you suffering from Shortness Breath?</label>
+            <select name="Shortness_breath" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Are you suffering from Headache?</label>
+            <select name="Headache" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Is your age above 60?</label>
+            <select name="above_60" id="dropdown">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+            <label for="question">Sex?</label>
+            <select name="sex" id="dropdown">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label for="question">Reason to predict?</label>
+            <select name="contact" id="dropdown">
+                <option value="Yes">Abroad Visit</option>
+                <option value="No">Contact with Confirmed</option>
+                <option value="Others">Others</option>
+            </select>
+            <button class="submit"> Submit </button>
         </form>
     </section>
-
-
 </body>
 
 </html>
